@@ -1,0 +1,32 @@
+
+.profile{
+    background-color: white;
+    width: 300px;
+    padding: 10px;
+    margin: 0 auto 20px;
+    border:1px solid black;
+}
+.avatar{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+.username{
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+.stats{
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+}
+.stats>li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
